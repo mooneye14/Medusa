@@ -64,7 +64,7 @@ class RarbgProvider(TorrentProvider):
         # Search Params
         search_params = {
             'app_id': app.RARBG_APPID,
-            'category': 'tv',
+            'category': '18;41;49',
             'min_seeders': self.minseed,
             'min_leechers': self.minleech,
             'limit': 100,
